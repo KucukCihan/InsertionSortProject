@@ -1,0 +1,33 @@
+# InsertionSortProject
+
+
+
+Proje 1
+[22,27,16,2,18,6] -> Insertion Sort
+
+1-Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+Answer- Step1 [16|27,22,2,18,6]
+        Step2 [16,22|27,2,18,6]
+        Step3 [2,16,22|27,18,6]
+        Step4 [2,6,16,22|18,27]
+        Step5 [2,6,16,18,22|27]
+
+2-Big'O gösterimini yazınız.
+Answer- n+(n-1)+(n-2)+...+1 = [n(n+1)]/2 => O(n^2)
+
+3-Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
+Answer- Average case; O(n^2) , Worst case O(n^2) , Best case; O(n)
+
+4-Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+Answer- [2,6,16,18,22,27] sorted array; 18 in the middle of the array so we indentify it as average case.
+
+5-[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+Answer- Step1 [3|7,5,8,2,9,4,15,6]
+        Step2 [3,5|7,8,2,9,4,15,6]
+        Step3 [2,3,5|8,7,9,4,15,6]
+        Step4 [2,3,5,7|8,9,4,15,6]
+        Step5 [2,3,4,5,7|9,8,15,6]
+        Step6 [2,3,4,5,7,8|9,15,6]
+        Step7 [2,3,4,5,6,7,8|15,9]
+        Step8 [2,3,4,5,6,7,8,9|15]
+        
